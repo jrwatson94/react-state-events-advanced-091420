@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 import BeyCard from '../Components/BeyCard'
-import beyArray from '../api'
 
 export default class Favorites extends Component {  
   renderCard = () => {
-    if (this.props.beyCard.favorite === true){
-      return <BeyCard {...this.props.beyCard}/>
-    }
+    console.log(this.props.favorites)
+    // this.props.favorites.map(beyObj => <BeyCard appClickHandler = {this.props.appClickHandler} beyCard = {beyObj} key={beyObj.id} name={beyObj.name} img={beyObj.img} favorite = {beyObj.favorite}/>)
   }
   render() {
     return (
