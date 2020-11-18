@@ -5,7 +5,7 @@ You are given an api.js file that exports an array of objects that look like thi
 
 # Deliverables:
 
-- Render a list of all Beyonce images
+<!-- - Render a list of all Beyonce images -->
 
 - When a User clicks on a Beyonce image in `BeyContainer` it should change the `favorite` key of that object to `true`, which should then add that Beyonce to the `Favorites` Container
 
